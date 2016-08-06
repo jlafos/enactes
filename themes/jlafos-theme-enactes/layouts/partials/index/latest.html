@@ -1,0 +1,14 @@
+<div class="row jumbotron">
+    <div class="col-md-8 col-md-offset-2">
+        <h1>L'auteur du mois</h1>
+        {{ range first 1 (where .Data.Pages "Type" "auteurs") }}
+        <div>
+            <a href="{{ .Permalink }}">
+                <h2>{{ .Title }}</h2>
+            </a>
+            <h3>{{ .Params.texte }}</h3>
+            <p>{{ .Description }}</p>
+        </div>
+        {{ end }}
+    </div>
+</div>

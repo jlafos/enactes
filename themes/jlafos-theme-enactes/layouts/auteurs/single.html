@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container-fluid a-propos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<h1>{{ .Title }}</h1>
+			<p class="lead">{{ .Description }}</p>
+			<hr>
+			</div>
+			<div class="col-md-3 col-md-offset-1">
+				<h3>Éditeur</h3>
+				{{ .Params.editeur }}
+				<h3>Liens</h3>
+				<ul>
+				{{ range .Params.links }}
+					<li><a href="{{ .link | safeURL }}">{{ .label }}</a></li>
+				{{ end }}
+				</ul>
+				<h3>Contact</h3>
+				<a href="mailto:{{ .Params.contact }}">Mail</a>
+			</div>
+			<div class="col-md-7">
+				<h3>Biographie</h3>
+				{{ .Params.biographie | safeHTML }}
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 texte">
+			<h2>{{ .Params.texte }}</h2>
+			{{ .Content }}
+		</div>
+	</div>
+</div>
+
+{{ partial "footer.html" . }}

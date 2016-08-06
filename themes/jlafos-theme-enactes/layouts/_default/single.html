@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container">
+	<div class="col-md-12">
+		<h1>{{ .Title }} – single DEFAULT</h1>
+		<p class="lead">{{ .Description }}</p>
+		{{ .Content }}
+	</div>
+</div>
+
+{{ partial "footer.html" . }}

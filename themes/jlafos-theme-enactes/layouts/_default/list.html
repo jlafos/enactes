@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container">
+	<div class="col-md-12">
+
+	{{ range .Data.Pages }}
+	  <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+	  <h2>{{ .Description }}</h2>
+	{{ end }}
+
+	</div>
+</div>
+
+{{ partial "footer.html" . }}
