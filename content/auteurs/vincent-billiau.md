@@ -1,7 +1,7 @@
 +++
 title = "Vincent Billiau"
 texte = "Salut c'est cool par ici"
-description = "Vincent Billiau vous présente son texte inédit..."
+description = "Vincent Billiau vous présente son texte inédit... Dolorem atque consequatur eos ut libero nam aut omnis. Illo veritatis eos delectus provident officia omnis dignissimos."
 date = "2016-11-01"
 datefr = "Novembre 2016"
 biographie = "blablabla..."
@@ -17,9 +17,7 @@ contact = "blabla@test.io"
     link = "http://url2.io" 
 +++
 
-Et blablabla. Fusce lacus magna, maximus nec sapien eu,
-porta efficitur neque. Aliquam erat volutpat.
-Vestibulum enim nibh, posuere eu diam nec,
+Et blablabla. Fusce lacus magna, maximus nec sapien eu, porta efficitur neque. Aliquam erat volutpat. Vestibulum enim nibh, posuere eu diam nec,
 varius sagittis turpis.
 
 Praesent quis sapien egestas mauris accumsan

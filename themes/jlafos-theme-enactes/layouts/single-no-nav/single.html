@@ -4,24 +4,15 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>{{ .Type }}</h1>
+			<h1>{{ .Title }}</h1>
 			<hr>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p class="date text-muted">{{ .Params.datefr }}</p>
-			<h2>{{ .Title }}</h2>
 			{{ .Content }}
 		</div>
 	</div>
-	{{ partial "back-to-top.html" . }}
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<hr>
-		</div>
-	</div>
-	{{ partial "next-prev.html" . }}
 </div>
 
 {{ partial "footer.html" . }}

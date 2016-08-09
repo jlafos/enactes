@@ -4,12 +4,19 @@
 <div class="container-fluid a-propos">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
-			<h1>{{ .Title }}</h1>
-			<p class="lead">{{ .Description }}</p>
-			<hr>
+			<div class="col-md-9 col-sm-9">
+				<h1>{{ .Title }}</h1>
 			</div>
-			<div class="col-md-3 col-md-offset-1">
+			<div class="col-md-3 col-sm-3">
+			<p class="date text-right">{{ .Params.datefr }}</p>
+			</div>
+			<div class="col-md-12 col-sm-12">
+				<p class="lead">{{ .Description }}</p>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-4">
 				<h3>Éditeur</h3>
 				{{ .Params.editeur }}
 				<h3>Liens</h3>
@@ -21,7 +28,7 @@
 				<h3>Contact</h3>
 				<a href="mailto:{{ .Params.contact }}">Mail</a>
 			</div>
-			<div class="col-md-7">
+			<div class="col-lg-9 col-md-9 col-sm-8">
 				<h3>Biographie</h3>
 				{{ .Params.biographie | safeHTML }}
 			</div>
@@ -31,10 +38,19 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2 texte">
+			<!-- texte de l'auteur -->
 			<h2>{{ .Params.texte }}</h2>
 			{{ .Content }}
 		</div>
 	</div>
-</div>
 
+	{{ partial "back-to-top.html" . }}
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<hr>
+		</div>
+	</div>
+	{{ partial "next-prev.html" . }}
+
+</div>
 {{ partial "footer.html" . }}

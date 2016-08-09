@@ -1,21 +1,24 @@
-{{ partial "header.html" . }} {{ partial "nav.html" . }}
+{{ partial "header.html" . }} 
+{{ partial "nav.html" . }}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <h1>Actualités</h1>
+            <hr>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            {{ range .Data.Pages }}
+              <p class="date text-muted">{{ .Params.datefr }}</p>
+              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2> 
+              {{ .Summary }}
+              <p class="text-right">
+                <a class="a-nav a-next" href="{{ .Permalink }}">Lire la suite</a>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </p>
+              <hr class="hr-list"> 
+            {{ end }}
         </div>
     </div>
-    <div class="row">
-        {{ range .Data.Pages }}
-        <div class="col-md-10 col-md-offset-1">
-        <hr>
-            <p class="text-muted">{{ .Params.datefr }}</p>
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <h3>{{ .Params.texte }}</h3>
-            <p>{{ .Content }}</p>
-        </div>
-        {{ end }}
-    </div>
-</div>
+    <!--insérer ici pagination-->
 </div>
 {{ partial "footer.html" . }}

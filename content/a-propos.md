@@ -1,9 +1,7 @@
 +++
 title = "À propos"
 description = "Plus d'infos sur En Actes..."
-type = "a-propos"
+type = "single-no-nav"
 +++
 
-Blablabla c'est super cool !
-
-Eh ouais gros.
+Infos pratiques sur l'asso...

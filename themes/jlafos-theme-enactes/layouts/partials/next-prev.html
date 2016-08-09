@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-2">
+        {{ if .NextInSection }}
+        <p>
+          <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          <a class="a-nav" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
+        </p>
+        {{ end }}
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 text-right">
+        {{ if .PrevInSection }}
+        <p>
+            <a class="a-nav" href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </p>
+        {{ end }}
+    </div>
+</div>
