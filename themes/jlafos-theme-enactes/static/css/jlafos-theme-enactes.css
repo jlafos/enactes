@@ -26,9 +26,11 @@ body {
 h1,
 h2,
 h3,
+h4,
 .h1,
 .h2,
-.h3 
+.h3,
+.h4
  {
   font-family: 'Roboto Slab', serif;
   line-height: 1.1;
@@ -36,18 +38,32 @@ h3,
   font-weight: 700;
 }
 
-h1, .h1 {
+h1, 
+.h1 {
   font-size: 72px;
 }
 
-h2, .h2 {
-  font-size: 48px;
+@media (max-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 48px;
+  }
+  h2,
+  .h2 {
+    font-size: 36px;
+  }
+}
+
+h2, 
+.h2 {
+  font-size: 48px; 
 }
 
 a {
   color: #555;
   text-decoration: underline;
   text-decoration-color: #e57373;
+  -webkit-text-decoration-color: #e57373;
 }
 
 a:hover,
@@ -141,6 +157,15 @@ button a, .btn {
   font-size: 20px;
 }
 
+.date-nav {
+  margin-top: -10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-family: 'Roboto Slab';
+  font-size: 14px;
+  color: #aaa;
+}
+
 .back-to-top {
   margin-top: 50px;
   color: #aaa;
@@ -157,7 +182,14 @@ button a, .btn {
   margin-top: 50px;
 }
 
-/***/
+
+/* Page d'accueil */
+.jumbotron h2 {
+  font-size: 52px;
+}
+
+
+
 /* Page single auteurs */ 
 
 .date {
@@ -216,7 +248,6 @@ button a, .btn {
 
 
 
-/***/
 
 /* Page Auteurs list */
 
@@ -233,4 +264,11 @@ button a, .btn {
   .flex {
     display: flex;
   }
+}
+
+
+
+/* wow.js visibility */
+.wow {
+    visibility: hidden;
 }

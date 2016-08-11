@@ -6,18 +6,21 @@
             <h1>Actualités</h1>
             <hr>
         </div>
+      </div>
+      {{ range $index, $element := .Data.Pages }}
+      <div class="row wow fadeIn" data-wow-delay="{{ mul 0.1 $index }}s">
         <div class="col-md-8 col-md-offset-2">
-            {{ range .Data.Pages }}
-              <p class="date text-muted">{{ .Params.datefr }}</p>
-              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2> 
-              {{ .Summary }}
-              <p class="text-right">
-                <a class="a-nav a-next" href="{{ .Permalink }}">Lire la suite</a>
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-              </p>
-              <hr class="hr-list"> 
-            {{ end }}
+          <p class="date text-muted">{{ $element.Params.datefr }}</p>
+          <h2><a href="{{ $element.Permalink }}">{{ $element.Title }}</a></h2> 
+          {{ $element.Summary }}
+          <p class="text-right">
+            <a class="a-nav a-next" href="{{ $element.Permalink }}">Lire la suite</a>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </p>
+          <hr class="hr-list"> 
         </div>
+      </div>
+      {{ end }}
     </div>
     <!--insérer ici pagination-->
 </div>

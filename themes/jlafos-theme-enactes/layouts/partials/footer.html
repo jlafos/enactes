@@ -1,13 +1,12 @@
 
     <footer class="footer">
         <div class="container-fluid">
-          <div class="col-md-10">
-            Blabla
+          <div class="col-md-10 text-muted small">
+          {{ .Site.Title }}
           </div>
           <div class="col-md-2">
             <p class="text-right">
-              fb 
-              tw
+              <a href=""><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
             </p>
           </div>
         </div>
@@ -19,5 +18,9 @@
 
     <!-- Custom js -->
     <script src="{{ .Site.BaseURL }}js/enactes.js"></script>
+    <!-- wow.js -->
+    <script src="{{ .Site.BaseURL }}js/wow.min.js"></script>
+    <!-- jquery easing-->
+    <script src="{{ .Site.BaseURL }}js/jquery.easing.min.js"></script>
   </body>
 </html>
