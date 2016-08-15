@@ -1,9 +1,21 @@
-<div class="row jumbotron">
-    <div class="col-md-8 col-md-offset-2">
-            {{ range first 1 (where .Data.Pages "Type" "auteurs") }}
-                <h2><small>L'auteur du mois</small><br><a href="{{ .Permalink }}">{{ .Title }}</h2></a>
-                <h3>{{ .Params.texte }}</h3>
-                <p>{{ .Description }}</p>
-            {{ end }}
-    </div>
+<div class="jumbotron">
+	<div class="container-fluid">
+		<div class="row">
+		    {{ range first 1 (where .Data.Pages "Type" "auteurs") }}
+		    <div class="col-md-10 col-md-offset-1">
+	            <div class="col-md-4">
+	            <p class="text-muted text-center"><br><br><br><br><br>(photo/illus)</p>
+	            </div>
+	            <div class="col-md-8">
+	            	<h2 class="text-right">L'auteur du mois</h2>
+	            	<a href="{{ .Permalink }}">
+	                <h3>{{ .Title }}</h3>
+	                <h4 class="titre">{{ .Params.texte }}</h4>
+	                <p>{{ .Description }}</p>
+	                </a>
+	            </div>
+		    </div>
+		    {{ end }}
+		</div>
+	</div>
 </div>

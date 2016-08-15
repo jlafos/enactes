@@ -5,26 +5,11 @@
     <div class="row">
         <div class="col-md-12">
             <h1>Tous les auteurs</h1>
-            <hr>
         </div>
     </div>
     <div class="row">
         {{ range $index, $element := .Data.Pages }}
-        <div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="{{ mul 0.1 $index }}s">
-            <div class="panel panel-default">
-                <div class="panel-heading text-center">
-                    <h3 class="panel-title">{{ $element.Params.datefr }}</h3>
-                </div>
-                <div class="panel-body">
-                    
-                    <h2><a href="{{ $element.Permalink }}">{{ $element.Title }}</a></h2>
-                    <a class="a-calendrier" href="{{ $element.Permalink }}">
-                        <h3>{{ $element.Params.texte }}</h3>
-                        <p>{{ $element.Description }}</p>
-                    </a>
-                </div>
-            </div>
-        </div>
+            {{ partial "cal.html" . }}
         {{ end }}
     </div>
 </div>
