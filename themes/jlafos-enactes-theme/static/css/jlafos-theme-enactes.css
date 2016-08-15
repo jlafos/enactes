@@ -16,19 +16,41 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #555;
-  background-color: #fafafa;
+  background-color: #eee;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-bottom: 100px;
 }
 
+h1, h2, .h1, .h2 {
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+}
+
 h1,
-.h1,
-h2, 
+.h1
+ {
+  font-size: 5em;
+  margin-left: 10px;
+}
+
+h2,
 .h2 {
   font-family: 'Amatic SC', sans-serif;
   font-weight: 700;
-  margin-left: 0.3em;
+  font-size: 4em;
+  margin-left: 10px;
+}
+
+/* sous-lignage particulier */
+.titre {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #555;
+  background-color: #ffff8d;
+  padding-left: 10px;
 }
 
 
@@ -43,16 +65,6 @@ h4,
   font-weight: 700;
 }
 
-h1, 
-.h1 {
-  font-size: 5em;
-}
-
-h2, 
-.h2 {
-  font-size: 4em; 
-}
-
 h3,
 .h3 {
   font-size: 36px;
@@ -65,14 +77,15 @@ h4,
 
 a {
   color: #555;
-  text-decoration: underline;
-  text-decoration-color: #e57373;
-  -webkit-text-decoration-color: #e57373;
+  background-color: #ffff8d;
+  font-weight: 300;
 }
 
 a:hover,
 a:focus {
-  color: #e57373;
+  color: #fafafa;
+  background-color: #e57373;
+  text-decoration: none;
 }
 
 .a-calendrier {
@@ -93,10 +106,19 @@ button a, .btn {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  border: 1px solid #e7e7e7;
-  background-color: #f5f5f5;
+  border-top: 10px solid #fff;
+  background-color: #fafafa;
   padding-top : 10px;
   margin-top : 50px;
+}
+
+.footer a {
+  background-color: transparent;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color : #e57373;
 }
 
 .navbar {
@@ -136,6 +158,10 @@ button a, .btn {
     border-color: #ef9a9a;
 }
 
+.navbar a {
+  background-color: transparent;
+}
+
 .navbar li a {
   text-decoration: none;
   text-transform: lowercase;
@@ -158,7 +184,7 @@ button a, .btn {
 .a-nav {
   margin: 20px;
   font-family: 'Roboto Slab';
-  font-size: 20px;
+  font-size: 1.4em;
 }
 
 .date-nav {
@@ -174,25 +200,12 @@ button a, .btn {
   margin-top: 50px;
   color: #aaa;
   text-decoration: none;
-}
-
-.back-to-top:hover,
-.back-to-top:focus {
-  color: #aaa;
-  text-decoration: none;
+  background-color: transparent;
 }
 
 .hr-list {
   margin-top: 50px;
 }
-
-
-/* Page d'accueil */
-.jumbotron h2 {
-  font-size: 52px;
-}
-
-
 
 /* Page single auteurs */ 
 
@@ -209,9 +222,11 @@ button a, .btn {
 }
 
 .texte h2 {
+  font-family: 'Roboto Slab', serif;
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
+  font-size: 3em;
 }
 
 .a-propos {
@@ -223,7 +238,8 @@ button a, .btn {
 }
 
 .a-propos hr {
-  border-top: 1px solid #ef9a9a
+  border-bottom: 10px solid #ef9a9a;
+  border-top: 0;
 }
 
 .a-propos a {
@@ -252,31 +268,24 @@ button a, .btn {
 
 
 hr, .hr {
-  border-top: 10px solid #eee;
+  border-bottom: 10px solid #ddd;
 }
+
+
 
 /* Page Auteurs list */
 
 .panel-title {
   font-size: 18px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
-
-.titre {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #555;
-  background-color: #ffff00;
-  padding-left: 10px;
-}
-
 
 .panel {
   box-shadow: 10px 10px #666;
   border-radius: 0;
   border: 0;
+  background-color: #fafafa;
+  margin-right: 10px;
 }
 
 .panel a,
@@ -291,17 +300,12 @@ hr, .hr {
   color : #e57373;
 }
 
-a .panel-body:hover > h4,
-a .panel-body:focus > h4,
-.jumbotron a:hover > h4,
-.jumbotron a:focus > h4 {
+a .panel-body:hover .titre,
+a .panel-body:focus .titre,
+.jumbotron a:hover .titre,
+.jumbotron a:focus .titre {
   color: #fafafa;
   background-color: #e57373;
-}
-
-a .panel-body:hover > h3,
-a .panel-body:focus > h3, {
-  border-color: #e57373;
 }
 
 .panel-default > .panel-heading {
@@ -313,12 +317,24 @@ a .panel-body:focus > h3, {
 
 .jumbotron {
   border-bottom: 10px solid #666;
+  background-color: #fafafa;
 }
 
 .jumbotron h2 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
+.jumbotron h3 {
+  font-size: 2.6em;
+}
+
+/* jumbotron red */
+.red {
+  color : #fafafa;
+  background-color: #e57373;
+  border-bottom: 10px solid #ef9a9a;
+  margin-top: 50px;
+}
 
 /* wow.js visibility */
 .wow {

@@ -1,13 +1,13 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h2>Précédemment</h2>
+            <h2 class="hr">Précédemment</h2>
         </div>
         {{ range first 2 (after 1 (where .Data.Pages "Type" "auteurs")) }}
             {{ partial "cal.html" . }}
         {{ end }}
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="panel panel-default">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="panel panel-default wow fadeIn" data-wow-delay=".2s">
                 <a href="/auteurs">
                     <div class="panel-body">
                         <h4 class="titre">Tous les auteurs</h4>

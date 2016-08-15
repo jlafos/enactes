@@ -1,13 +1,16 @@
 {{ partial "header.html" . }}
 {{ partial "nav.html" . }}
 
-	{{ partial "index/cover.html" . }}
-	{{ partial "index/latest.html" . }}
-	{{ partial "index/previous.html" . }}
+<!--
+{{ partial "index/cover.html" . }}
+-->
+{{ partial "index/latest.html" . }}
+{{ partial "index/previous.html" . }}
 
-<div class="container-fluid">
-	{{ partial "index/dons.html" . }}
-</div>
+
+{{ partial "index/dons.html" . }}
+
+
 <!--
 <div class="container">
 	{{ partial "index/partenaires.html" . }}
