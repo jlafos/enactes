@@ -2,45 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/enactes.fr/</loc>
+    <loc>http://enactes.fr/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/enactes.fr/auteurs/philip-k-dick/</loc>
+    <loc>http://enactes.fr/auteurs/philip-k-dick/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/enactes.fr/auteurs/vincent-billiau/</loc>
+    <loc>http://enactes.fr/auteurs/vincent-billiau/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/enactes.fr/actualites/conquete/</loc>
+    <loc>http://enactes.fr/actualites/conquete/</loc>
     <lastmod>2016-10-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/enactes.fr/auteurs/charles-baudelaire/</loc>
+    <loc>http://enactes.fr/auteurs/charles-baudelaire/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/enactes.fr/actualites/lancement/</loc>
+    <loc>http://enactes.fr/actualites/lancement/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/enactes.fr/festival/</loc>
+    <loc>http://enactes.fr/festival/</loc>
   </url>
   
   <url>
-    <loc>/enactes.fr/nous-soutenir/</loc>
+    <loc>http://enactes.fr/nous-soutenir/</loc>
   </url>
   
   <url>
-    <loc>/enactes.fr/a-propos/</loc>
+    <loc>http://enactes.fr/a-propos/</loc>
   </url>
   
 </urlset>
