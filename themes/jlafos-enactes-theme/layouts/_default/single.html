@@ -10,9 +10,15 @@
 	</div>
 	<div class="row wow fadeIn">
 		<div class="col-md-8 col-md-offset-2">
-			<p class="date text-muted">{{ .Params.datefr }}</p>
-			<h2>{{ .Title }}</h2>
-			{{ .Content }}
+			<div class="panel panel-default">
+				<div class="panel-heading text-center">
+					<p class="panel-title">{{ .Params.datefr }}</p>
+				</div>
+				<div class="panel-body">
+					<h4 class="titre">{{ .Title }}</h4>
+					{{ .Content }}
+				</div>
+			</div>
 		</div>
 	</div>
 	{{ partial "back-to-top.html" . }}

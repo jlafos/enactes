@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>enActes.fr</title>
-    <link>http://foulecomplexe.com/private/enactes/</link>
+    <link>enactes.fr/</link>
     <description>Recent content on enActes.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://foulecomplexe.com/private/enactes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="enactes.fr/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Philip K. Dick</title>
-      <link>http://foulecomplexe.com/private/enactes/auteurs/philip-k-dick/</link>
+      <link>/enactes.fr/auteurs/philip-k-dick/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://foulecomplexe.com/private/enactes/auteurs/philip-k-dick/</guid>
+      <guid>/enactes.fr/auteurs/philip-k-dick/</guid>
       <description>&lt;p&gt;A sint est expedita ratione animi eos magnam. Est id nam nulla dignissimos consequatur quae. Dolor perspiciatis voluptas maiores qui quisquam voluptatum est aliquid.&lt;/p&gt;
 
 &lt;p&gt;Dolorem atque consequatur eos ut libero nam aut omnis. Illo veritatis eos delectus provident officia omnis dignissimos. Minus aut commodi voluptatem aut itaque consequatur cupiditate necessitatibus. Possimus beatae omnis et autem quasi doloribus saepe suscipit. Beatae quos dolores incidunt quo.&lt;/p&gt;
@@ -59,10 +59,10 @@
     
     <item>
       <title>Vincent Billiau</title>
-      <link>http://foulecomplexe.com/private/enactes/auteurs/vincent-billiau/</link>
+      <link>/enactes.fr/auteurs/vincent-billiau/</link>
       <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://foulecomplexe.com/private/enactes/auteurs/vincent-billiau/</guid>
+      <guid>/enactes.fr/auteurs/vincent-billiau/</guid>
       <description>&lt;p&gt;Et blablabla. Fusce lacus magna, maximus nec sapien eu, porta efficitur neque. Aliquam erat volutpat. Vestibulum enim nibh, posuere eu diam nec,
 varius sagittis turpis.&lt;/p&gt;
 
@@ -74,10 +74,10 @@ lobortis risus id nisi rutrum, at iaculis.&lt;/p&gt;
     
     <item>
       <title>Conquête du monde</title>
-      <link>http://foulecomplexe.com/private/enactes/actualites/conquete/</link>
+      <link>/enactes.fr/actualites/conquete/</link>
       <pubDate>Thu, 06 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://foulecomplexe.com/private/enactes/actualites/conquete/</guid>
+      <guid>/enactes.fr/actualites/conquete/</guid>
       <description>&lt;p&gt;5 jours après son lancement, enactes.fr compte déjà 500 000 abonnés à travers le monde prépare son déploiement global. Merci !&lt;/p&gt;
 
 &lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
@@ -86,10 +86,10 @@ lobortis risus id nisi rutrum, at iaculis.&lt;/p&gt;
     
     <item>
       <title>Charles Baudelaire</title>
-      <link>http://foulecomplexe.com/private/enactes/auteurs/charles-baudelaire/</link>
+      <link>/enactes.fr/auteurs/charles-baudelaire/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://foulecomplexe.com/private/enactes/auteurs/charles-baudelaire/</guid>
+      <guid>/enactes.fr/auteurs/charles-baudelaire/</guid>
       <description>&lt;p&gt;In vel ligula tortor. Aliquam erat volutpat. Pellentesque at felis eu quam tincidunt dignissim. Nulla facilisi.&lt;/p&gt;
 
 &lt;p&gt;Pellentesque tempus nisi et interdum convallis. In quam ante, vulputate at massa et, rutrum gravida dui. Phasellus tristique libero at ex.&lt;/p&gt;
@@ -98,10 +98,10 @@ lobortis risus id nisi rutrum, at iaculis.&lt;/p&gt;
     
     <item>
       <title>Lancement de enActes</title>
-      <link>http://foulecomplexe.com/private/enactes/actualites/lancement/</link>
+      <link>/enactes.fr/actualites/lancement/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://foulecomplexe.com/private/enactes/actualites/lancement/</guid>
+      <guid>/enactes.fr/actualites/lancement/</guid>
       <description>&lt;p&gt;C&amp;rsquo;est officiel ! Le site web enactes.fr vient d&amp;rsquo;être lancé !&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
@@ -112,30 +112,30 @@ lobortis risus id nisi rutrum, at iaculis.&lt;/p&gt;
     
     <item>
       <title>Le festival En Actes</title>
-      <link>http://foulecomplexe.com/private/enactes/festival/</link>
+      <link>/enactes.fr/festival/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://foulecomplexe.com/private/enactes/festival/</guid>
+      <guid>/enactes.fr/festival/</guid>
       <description>&lt;p&gt;Super festival&amp;hellip; blabla&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Nous soutenir</title>
-      <link>http://foulecomplexe.com/private/enactes/nous-soutenir/</link>
+      <link>/enactes.fr/nous-soutenir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://foulecomplexe.com/private/enactes/nous-soutenir/</guid>
+      <guid>/enactes.fr/nous-soutenir/</guid>
       <description>&lt;p&gt;€€€€€€€€ !&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>À propos</title>
-      <link>http://foulecomplexe.com/private/enactes/a-propos/</link>
+      <link>/enactes.fr/a-propos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://foulecomplexe.com/private/enactes/a-propos/</guid>
+      <guid>/enactes.fr/a-propos/</guid>
       <description>&lt;p&gt;Infos pratiques sur l&amp;rsquo;asso&amp;hellip;&lt;/p&gt;
 </description>
     </item>

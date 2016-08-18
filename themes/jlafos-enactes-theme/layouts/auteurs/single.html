@@ -33,9 +33,14 @@
 				{{ .Params.biographie | safeHTML }}
 			</div>
 		</div>
+		<div class="row text-center hidden-xs">
+			<div class="col-md-12">
+				<a href="#{{ .Params.texte }}" class="page-scroll"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></a>
+			</div>
+		</div>
 	</div>
 </div>
-<div class="container">
+<div class="container" id="{{ .Params.texte }}">
 	<div class="row wow fadeIn">
 		<div class="col-md-8 col-md-offset-2 texte">
 			<!-- texte de l'auteur -->

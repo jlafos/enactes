@@ -1,7 +1,7 @@
 /*
 
-  rouge : #e57373
-          #ef9a9a
+  rouge : #EF5350
+          #E53935
 
 */
 
@@ -49,7 +49,7 @@ h2,
   margin-top: 20px;
   margin-bottom: 20px;
   color: #555;
-  background-color: #ffff8d;
+  background-color: #FFFF8D;
   padding-left: 10px;
 }
 
@@ -77,14 +77,12 @@ h4,
 
 a {
   color: #555;
-  background-color: #ffff8d;
-  font-weight: 300;
 }
 
 a:hover,
 a:focus {
   color: #fafafa;
-  background-color: #e57373;
+  background-color: #EF5350;
   text-decoration: none;
 }
 
@@ -118,17 +116,17 @@ button a, .btn {
 
 .footer a:hover,
 .footer a:focus {
-  color : #e57373;
+  color : #EF5350;
 }
 
 .navbar {
   border-radius: 0;
   border: none;
-  border-bottom: 10px solid #ef9a9a;
+  border-bottom: 10px solid #E53935;
 }
 
 .navbar-inverse {
-  background-color: #e57373;
+  background-color: #EF5350;
 }
 
 .navbar-bottom {
@@ -145,17 +143,17 @@ button a, .btn {
 }
 
 .navbar-inverse .navbar-toggle {
-  border-color: #ef9a9a;
+  border-color: #E53935;
 }
 
-.navbar-inverse .navbar-toggle:hover, 
+.navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #ef9a9a;
+    background-color: #E53935;
 }
 
-.navbar-inverse .navbar-collapse, 
+.navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-    border-color: #ef9a9a;
+    border-color: #E53935;
 }
 
 .navbar a {
@@ -170,7 +168,7 @@ button a, .btn {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  background-color: #ef9a9a;
+  background-color: #E53935;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -185,6 +183,13 @@ button a, .btn {
   margin: 20px;
   font-family: 'Roboto Slab';
   font-size: 1.4em;
+  background-color: #FFFF8D;
+}
+
+.panel a:hover .a-nav,
+.panel a:focus .a-nav {
+  color: #fafafa;
+  background-color:#EF5350;
 }
 
 .date-nav {
@@ -203,11 +208,7 @@ button a, .btn {
   background-color: transparent;
 }
 
-.hr-list {
-  margin-top: 50px;
-}
-
-/* Page single auteurs */ 
+/* Page single auteurs */
 
 .date {
   margin-top: 30px;
@@ -230,7 +231,7 @@ button a, .btn {
 }
 
 .a-propos {
-  background-color: #e57373;
+  background-color: #EF5350;
   color: #fff;
   margin-top: -20px;
   padding-top: 20px;
@@ -238,7 +239,7 @@ button a, .btn {
 }
 
 .a-propos hr {
-  border-bottom: 10px solid #ef9a9a;
+  border-bottom: 10px solid #E53935;
   border-top: 0;
 }
 
@@ -297,7 +298,7 @@ hr, .hr {
 .panel a:focus,
 .jumbotron a:hover,
 .jumbotron a:focus {
-  color : #e57373;
+  color : #EF5350;
 }
 
 a .panel-body:hover .titre,
@@ -305,12 +306,12 @@ a .panel-body:focus .titre,
 .jumbotron a:hover .titre,
 .jumbotron a:focus .titre {
   color: #fafafa;
-  background-color: #e57373;
+  background-color: #EF5350;
 }
 
 .panel-default > .panel-heading {
   color: #fafafa;
-  background-color: #e57373;
+  background-color: #EF5350;
   border-bottom: none;
   border-radius: 0;
 }
@@ -331,8 +332,8 @@ a .panel-body:focus .titre,
 /* jumbotron red */
 .red {
   color : #fafafa;
-  background-color: #e57373;
-  border-bottom: 10px solid #ef9a9a;
+  background-color: #EF5350;
+  border-bottom: 10px solid #E53935;
   margin-top: 50px;
 }
 

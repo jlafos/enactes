@@ -1,9 +1,12 @@
+$(window).load(function() {
+   new WOW().init();
+});
+
+// header opacity fades on scroll
 if ($('.a-propos') != 'undefined') {
     var header = $('.a-propos');
+    var range = 200;
 }
-
-var range = 200;
-
 $(window).on('scroll', function () {
     if ($('.a-propos') != 'undefined') {
         var scrollTop = $(this).scrollTop();
@@ -20,4 +23,13 @@ $(window).on('scroll', function () {
           header.css({ 'opacity': 0 });
         }
     }
+});
+
+// a.page-scroll scrolls to #id
+$('a.page-scroll').bind('click', function(event) {
+    var $anchor = $(this);
+    $('html, body').stop().animate({
+        scrollTop: ($($anchor.attr('href')).offset().top)
+    }, 1250, 'easeInOutQuart');
+    event.preventDefault();
 });
