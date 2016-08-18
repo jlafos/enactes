@@ -3,7 +3,7 @@
         {{ if .NextInSection }}
         <p>
           <i class="fa fa-angle-left" aria-hidden="true"></i>
-          <a class="a-nav" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
+          <a class="a-nav" href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title }}</a>
         </p>
         <p class="small text-muted date-nav">{{ .NextInSection.Params.datefr }}</p>
         {{ end }}
@@ -11,7 +11,7 @@
     <div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay=".5s">
         {{ if .PrevInSection }}
         <p class="text-right">
-            <a class="a-nav" href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a>
+            <a class="a-nav" href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title }}</a>
             <i class="fa fa-angle-right" aria-hidden="true"></i>
         </p>
         <p class="small text-muted text-right date-nav">{{ .PrevInSection.Params.datefr }}</p>
