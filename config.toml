@@ -1,4 +1,4 @@
 theme = "jlafos-enactes-theme"
-baseurl = "enactes.fr"
+baseurl = "enactes.fr/"
 languageCode = "fr-fr"
 title = "enActes.fr"
