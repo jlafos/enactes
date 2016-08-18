@@ -3,3 +3,4 @@ baseurl = "http://enactes.fr/"
 languageCode = "fr-fr"
 title = "enActes.fr"
 relativeURLs = true
+canonifyURLs = true
