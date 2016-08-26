@@ -3,14 +3,13 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Actualités</h1>
-            <hr>
+            <h1 class="hr">Actualités</h1>
         </div>
       </div>
       {{ range $index, $element := .Data.Pages }}
-      <div class="row wow fadeIn" data-wow-delay="{{ mul 0.1 $index }}s">
+      <div class="row row-actu wow fadeIn" data-wow-delay="{{ mul 0.1 $index }}s">
         <div class="col-md-8 col-md-offset-2">
-          <div class="panel panel-default">
+          <div class="panel panel-default panel-hover">
             <div class="panel-heading text-center">
               <p class="panel-title">{{ $element.Params.datefr }}</p>
             </div>
@@ -18,6 +17,7 @@
             <div class="panel-body">
               <h4 class="titre">{{ $element.Title }}</h4>
               {{ $element.Summary }}
+              <p class="small text-muted">[...]</p>
               <p class="text-right">
                 <span class="a-nav">Lire la suite</span><i class="fa fa-angle-right" aria-hidden="true"></i>
               </p>

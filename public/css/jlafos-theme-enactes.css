@@ -238,11 +238,6 @@ button a, .btn {
   padding-bottom: 40px;
 }
 
-.a-propos hr {
-  border-bottom: 10px solid #E53935;
-  border-top: 0;
-}
-
 .a-propos a {
   color: #fff;
   text-decoration: underline;
@@ -316,6 +311,23 @@ a .panel-body:focus .titre,
   border-radius: 0;
 }
 
+/* ANIMATION PANEL HOVER */
+.panel-hover {
+  -webkit-transition: margin .2s;
+  transition-timing-function: ease;
+}
+
+.panel-hover:hover,
+.panel-hover:focus {
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+  transition: margin .2s;
+  -webkit-transition: margin .2s;
+  transition-timing-function: ease;
+
+}
+
 .jumbotron {
   border-bottom: 10px solid #666;
   background-color: #fafafa;
@@ -335,6 +347,10 @@ a .panel-body:focus .titre,
   background-color: #EF5350;
   border-bottom: 10px solid #E53935;
   margin-top: 50px;
+}
+
+.row-actu {
+  margin-bottom: 1em;
 }
 
 /* wow.js visibility */
