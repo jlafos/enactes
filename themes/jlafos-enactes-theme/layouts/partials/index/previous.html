@@ -3,12 +3,12 @@
         <div class="col-md-12">
             <h2>Précédemment</h2>
         </div>
-        {{ range first 2 (after 1 (where .Data.Pages "Type" "auteurs")) }}
+        {{ range first 2 (after 1 (where .Data.Pages "Type" "publications")) }}
             {{ partial "cal.html" . }}
         {{ end }}
         <div class="col-md-4 col-sm-12 col-xs-12">
             <div class="panel panel-default panel-hover wow fadeIn" data-wow-delay=".2s">
-                <a href="/auteurs">
+                <a href="/publications">
                     <div class="panel-body">
                         <h3 class="titre">Toutes les publications</h3>
                         <p>Découvrez les auteurs des mois précédents en cliquant ici.</p>

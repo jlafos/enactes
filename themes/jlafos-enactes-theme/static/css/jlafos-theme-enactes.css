@@ -295,6 +295,12 @@ button a, .btn {
   font-size: 64px;
 }
 
+@media (max-width: 768px) {
+  #modal-auteur {
+    margin-top: 64px;
+  }
+}
+
 .modal-content h4,
 .modal-content .h4 {
   font-family: 'Amatic SC', sans-serif;
@@ -390,6 +396,24 @@ a .panel-body:focus .titre,
 
 .row-actu {
   margin-bottom: 1em;
+}
+
+
+/* social */
+.social {
+  margin-top: 20px;
+}
+
+.a-social {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #aaa;
+}
+
+.a-social:hover,
+.a-social:focus {
+  color: #EF5350;
+  background-color: transparent;
 }
 
 /* wow.js visibility */
