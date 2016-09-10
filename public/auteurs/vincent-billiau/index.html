@@ -36,11 +36,11 @@
     
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="../../auteurs/">Auteur(e)s</a></li>
-        <li><a href="../../actualites/">Actualités</a></li>
-        <li><a href="../../festival/">Le festival</a></li>
+        <li><a href="../../auteurs/">Les Publications</a></li>
+        <li><a href="../../actualites/">Le Festival</a></li>
+        <li><a href="../../festival/">Actualités</a></li>
         <li><a href="../../nous-soutenir/">Nous soutenir</a></li>
-        <li><a href="../../a-propos/">Infos</a></li>
+        <li><a href="../../a-propos/">Contacts</a></li>
       </ul>
     </div>
   </div>
@@ -51,34 +51,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-9 col-sm-9">
-				<h1>Vincent Billiau</h1>
+				<h1 class="h1-auteur">Vincent Billiau</h1>
 			</div>
 			<div class="col-md-3 col-sm-3">
 			<p class="date text-right">Novembre 2016</p>
 			</div>
-			<div class="col-md-12 col-sm-12">
-				<p class="lead">Vincent Billiau vous présente son texte inédit... Dolorem atque consequatur eos ut libero nam aut omnis. Illo veritatis eos delectus provident officia omnis dignissimos.</p>
-			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-4">
-				<h3>Éditeur</h3>
-				Gallimard
-				<h3>Liens</h3>
-				<ul>
-				
-					<li><a href="http://url1.io">Lien 1</a></li>
-				
-					<li><a href="http://url2.io">Lien 2</a></li>
-				
-				</ul>
-				<h3>Contact</h3>
-				<a href="mailto:blabla@test.io">Mail</a>
+			<div class="col-md-8 col-sm-8 col-xs-12">
+				<p class="lead">Vincent Billiau vous présente son texte inédit... Dolorem atque consequatur eos ut libero nam aut omnis. Illo veritatis eos delectus provident officia omnis dignissimos.</p>
 			</div>
-			<div class="col-lg-9 col-md-9 col-sm-8">
-				<h3>Biographie</h3>
-				blablabla...
+			<a href="" data-toggle="modal" data-target="#infos-auteur">
+			<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center btn-infos">
+				<b>Plus d'infos sur l'auteur</b>
 			</div>
+			</a>
 		</div>
 		<div class="row text-center hidden-xs">
 			<div class="col-md-12">
@@ -137,6 +124,69 @@ lobortis risus id nisi rutrum, at iaculis.</p>
 
 
 </div>
+
+
+<div class="modal fade" id="infos-auteur" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+			<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title h1-auteur" id="infos-auteur">Vincent Billiau</h1>
+      </div>
+      <div class="modal-body">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<h4>Biographie</h4>
+						blablabla...
+					</div>
+				</div>
+
+				
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr>
+						<h4>Éditeur</h4>
+						Gallimard
+					</div>
+				</div>
+				
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr>
+						<h4>Liens</h4>
+						<ul>
+						
+							<li><a href="http://url1.io">Lien 1</a></li>
+						
+							<li><a href="http://url2.io">Lien 2</a></li>
+						
+						</ul>
+					</div>
+				</div>
+
+				
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr>
+						<h4>Contact</h4>
+						Mail
+					</div>
+				</div>
+				
+
+				<div class="row">
+					<a href="" data-dismiss="modal" aria-label="Close">
+					<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 btn-infos text-center">
+						<b>Retour</b>
+					</div>
+					</a>
+				</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <footer class="footer">
         <div class="container-fluid">

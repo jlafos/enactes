@@ -5,7 +5,7 @@ description = "De retour avec un texte inédit, voluptatem asperiores mollitia e
 date = "2016-12-01"
 datefr = "Décembre 2016"
 biographie = "Deleniti cupiditate explicabo ullam corporis aliquid facere sunt sit. Dicta voluptatem quia vero sed alias vitae. Iste quo dolorem nesciunt dolorum eos sit ducimus. Quia exercitationem voluptatem consectetur quia.</p><p>Rerum exercitationem deserunt voluptas ut totam quia. Voluptatem voluptas quasi distinctio iste ex. Temporibus ab sapiente quidem impedit soluta.</p><p>Et dicta magni tempore quis sit recusandae reprehenderit. Dicta id quia qui quis quos nostrum et et. Autem repudiandae sit quo. Mollitia non laboriosam aut sint maiores."
-editeur = "Gallimard"
+
 contact = "blabla@test.io"
 
 [[links]]
@@ -14,7 +14,7 @@ contact = "blabla@test.io"
 
 [[links]]
     label = "Lien 2"
-    link = "http://url2.io" 
+    link = "http://url2.io"
 
 +++
 

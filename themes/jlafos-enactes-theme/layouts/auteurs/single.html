@@ -5,32 +5,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-9 col-sm-9">
-				<h1>{{ .Title }}</h1>
+				<h1 class="h1-auteur">{{ .Title }}</h1>
 			</div>
 			<div class="col-md-3 col-sm-3">
 			<p class="date text-right">{{ .Params.datefr }}</p>
 			</div>
-			<div class="col-md-12 col-sm-12">
-				<p class="lead">{{ .Description }}</p>
-			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-4">
-				<h3>Éditeur</h3>
-				{{ .Params.editeur }}
-				<h3>Liens</h3>
-				<ul>
-				{{ range .Params.links }}
-					<li><a href="{{ .link | safeURL }}">{{ .label }}</a></li>
-				{{ end }}
-				</ul>
-				<h3>Contact</h3>
-				<a href="mailto:{{ .Params.contact }}">Mail</a>
+			<div class="col-md-8 col-sm-8 col-xs-12">
+				<p class="lead">{{ .Description }}</p>
 			</div>
-			<div class="col-lg-9 col-md-9 col-sm-8">
-				<h3>Biographie</h3>
-				{{ .Params.biographie | safeHTML }}
+			<a href="" data-toggle="modal" data-target="#infos-auteur">
+			<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center btn-infos">
+				<b>Plus d'infos sur l'auteur</b>
 			</div>
+			</a>
 		</div>
 		<div class="row text-center hidden-xs">
 			<div class="col-md-12">
@@ -57,4 +46,65 @@
 	{{ partial "next-prev.html" . }}
 
 </div>
+
+<!-- modal infos auteur -->
+<div class="modal fade" id="infos-auteur" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+			<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title h1-auteur" id="infos-auteur">{{ .Title }}</h1>
+      </div>
+      <div class="modal-body">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<h4>Biographie</h4>
+						{{ .Params.biographie | safeHTML }}
+					</div>
+				</div>
+
+				{{ if isset .Params "editeur" }}
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr>
+						<h4>Éditeur</h4>
+						{{ .Params.editeur }}
+					</div>
+				</div>
+				{{ end }}
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr>
+						<h4>Liens</h4>
+						<ul>
+						{{ range .Params.links }}
+							<li><a href="{{ .link | safeURL }}">{{ .label }}</a></li>
+						{{ end }}
+						</ul>
+					</div>
+				</div>
+
+				{{ if isset .Params "contact" }}
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr>
+						<h4>Contact</h4>
+						Mail
+					</div>
+				</div>
+				{{ end }}
+
+				<div class="row">
+					<a href="" data-dismiss="modal" aria-label="Close">
+					<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 btn-infos text-center">
+						<b>Retour</b>
+					</div>
+					</a>
+				</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {{ partial "footer.html" . }}

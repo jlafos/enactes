@@ -28,10 +28,14 @@ h1, h2, .h1, .h2 {
 }
 
 h1,
-.h1
- {
+.h1 {
   font-size: 5em;
   margin-left: 10px;
+}
+
+.h1-auteur {
+  font-family: 'Roboto Slab', serif;
+  font-size: 64px;
 }
 
 h2,
@@ -62,7 +66,7 @@ h4,
   font-family: 'Roboto Slab', serif;
   line-height: 1.1;
   color: inherit;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 h3,
@@ -72,7 +76,8 @@ h3,
 
 h4,
 .h4 {
-  font-size: 30px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 a {
@@ -196,7 +201,7 @@ button a, .btn {
   margin-top: -10px;
   margin-right: 40px;
   margin-left: 40px;
-  font-family: 'Roboto Slab';
+  font-family: 'Open sans';
   font-size: 14px;
   color: #aaa;
 }
@@ -209,13 +214,33 @@ button a, .btn {
 }
 
 /* Page single auteurs */
-
-.date {
-  margin-top: 30px;
-  font-family: 'Roboto Slab';
-  font-size: 20px;
+@media (min-width: 768px) {
+  .date {
+    margin-top: 50px;
+  }
 }
 
+.btn-infos {
+  background-color: #EF5350;
+  color: #fafafa;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #fafafa;
+  box-shadow: 10px 10px rgba(0,0,0,0.2);
+
+  -webkit-transition: margin .2s;
+  transition-timing-function: ease;
+}
+
+.btn-infos:hover,
+.btn-infos:active {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
 
 .texte p {
   margin-bottom: 25px;
@@ -224,6 +249,7 @@ button a, .btn {
 
 .texte h2 {
   font-family: 'Roboto Slab', serif;
+  font-weight: 300;
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
@@ -240,13 +266,11 @@ button a, .btn {
 
 .a-propos a {
   color: #fff;
-  text-decoration: underline;
 }
 
 .a-propos a:hover,
 .a-propos a:focus {
   color: #fff;
-  text-decoration: none;
 }
 
 .btn-default {
@@ -260,6 +284,25 @@ button a, .btn {
   color: #555;
   background-color: #e7e7e7;
   border-color: #e7e7e7;
+}
+
+.modal-content {
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+}
+
+.modal-header .close {
+  font-size: 64px;
+}
+
+.modal-content h4,
+.modal-content .h4 {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 48px;
+}
+
+.modal-header {
+  border-bottom: 0;
 }
 
 
@@ -313,6 +356,7 @@ a .panel-body:focus .titre,
 
 /* ANIMATION PANEL HOVER */
 .panel-hover {
+  transition: margin .2s;
   -webkit-transition: margin .2s;
   transition-timing-function: ease;
 }
@@ -321,11 +365,6 @@ a .panel-body:focus .titre,
 .panel-hover:focus {
   margin-top: 5px;
   margin-bottom: 15px;
-
-  transition: margin .2s;
-  -webkit-transition: margin .2s;
-  transition-timing-function: ease;
-
 }
 
 .jumbotron {
