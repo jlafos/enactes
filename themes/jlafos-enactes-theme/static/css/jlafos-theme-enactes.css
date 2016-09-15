@@ -416,6 +416,21 @@ a .panel-body:focus .titre,
   background-color: transparent;
 }
 
+/* page nous soutenir */
+.dons {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn-don {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.fa-mobile {
+  vertical-align: top;
+}
+
 /* wow.js visibility */
 .wow {
     visibility: hidden;

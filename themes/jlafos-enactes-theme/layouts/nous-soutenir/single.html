@@ -1,65 +1,16 @@
-<!DOCTYPE html>
-<html lang="fr-fr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nous soutenir</title>
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:300,400|Oswald:400,700|Permanent+Marker|Raleway:300,400|Roboto+Slab:300,400,700|Amatic+SC:700|Reenie+Beanie" rel="stylesheet">
-    
-    <script src="https://use.fontawesome.com/e3016f90b3.js"></script>
-    
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    
-    <link href="../css/jlafos-theme-enactes.css" rel="stylesheet">
-    <link href="../css/animate.min.css" rel="stylesheet">
-    
-    
-    
-  </head>
-<body id="top">
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="../">enActes.fr</a>
-    </div>
-
-    
-    <div class="collapse navbar-collapse" id="enactes-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="../publications/">Les Publications</a></li>
-        <li><a href="../festival/">Le Festival</a></li>
-        <li><a href="../actualites/">Actualités</a></li>
-        <li><a href="../nous-soutenir/">Nous soutenir</a></li>
-        <li><a href="../contacts/">Contacts</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
 
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>Nous soutenir</h1>
+			<h1>{{ .Title }}</h1>
 			<hr>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p>Sur enActes.fr, nous publions chaque mois du contenu <strong>gratuit, pour tous, et sans limitation</strong>.</p>
-
-<p>Pour faire vivre notre plateforme en ligne et l&rsquo;association, nous avons opté pour un <strong>financement par dons</strong>.</p>
-
+			{{ .Content }}
 		</div>
 	</div>
 	<div class="row">
@@ -69,7 +20,7 @@
 			<p>Pour soutenir nos <b>publications mensuelles</b>, <b>rémunérer les auteurs</b> et faire vivre notre plateforme en ligne, nous vous proposons <b>3 formules d'abonnement</b> dont la durée d'engagement est de 12 mois.</p>
 		</div>
 	</div>
-	
+	<!-- contreparties -->
 	<div class="row dons">
 		<div class="col-md-4 col-md-offset-2 col-sm-6 text-center">
 			<i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
@@ -81,7 +32,7 @@
 			<p class="small">La veille de chaque publication, vous recevrez <b>un SMS</b> contenant <b>une pensée, un poème, une courte phrase</b> écrite par l'auteur du mois !</p>
 		</div>
 	</div>
-	
+	<!-- panels abonnements -->
 	<div class="row dons">
 	  <div class="col-md-4 col-sm-4 col-xs-12 text-center">
 			<div class="panel panel-default">
@@ -133,35 +84,9 @@
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<hr>
 			<p>Tous nos paiements sont sécurisés et effectués via PayPal.</p>
-			<table border="0" cellpadding="10" cellspacing="0" align="center"><tbody><tr><td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/fr/webapps/mpp/paypal-popup" title="PayPal Comment Ca Marche" onclick="javascript:window.open('https://www.paypal.com/fr/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_74x46.jpg" border="0" alt="PayPal Logo" /></a></td></tr></tbody></table>
+			<!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tbody><tr><td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/fr/webapps/mpp/paypal-popup" title="PayPal Comment Ca Marche" onclick="javascript:window.open('https://www.paypal.com/fr/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_74x46.jpg" border="0" alt="PayPal Logo" /></a></td></tr></tbody></table><!-- PayPal Logo -->
 		</div>
 	</div>
 
 </div>
-
-    <footer class="footer">
-        <div class="container-fluid">
-          <div class="col-md-10 col-sm-10 col-xs-10 text-muted small">
-          enActes.fr
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-2">
-            <p class="text-right">
-              <a href=""><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
-            </p>
-          </div>
-        </div>
-    </footer>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
-    <script src="../js/bootstrap.min.js"></script>
-
-    
-    <script src="../js/enactes.js"></script>
-    
-    <script src="../js/wow.min.js"></script>
-    
-    <script src="../js/jquery.easing.min.js"></script>
-  </body>
-</html>
-
+{{ partial "footer.html" . }}
