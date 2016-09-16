@@ -12,4 +12,4 @@ Vous pouvez vous connecter à votre compte sur [www.paypal.com/fr](http://www.pa
 
 ---
 
-Vous pouvez maintenant renseigner vos coordonnées pour recevoir nos courriers et sms mensuels.
+Pour __finaliser votre abonnement__ et recevoir nos courriers et sms mensuels, veuillez renseigner vos coordonnées.
