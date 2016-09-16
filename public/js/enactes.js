@@ -8,7 +8,7 @@ if ($('.a-propos') != undefined) {
     var range = 200;
 }
 $(window).on('scroll', function () {
-    if ($('.a-propos') != 'undefined') {
+    if ($('.a-propos') != undefined) {
         var scrollTop = $(this).scrollTop();
         var offset = header.offset().top;
         var height = header.outerHeight();

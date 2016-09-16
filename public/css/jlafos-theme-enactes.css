@@ -230,10 +230,13 @@ button a, .btn {
   margin-top: 10px;
   margin-bottom: 15px;
   border: 1px solid #fafafa;
-  box-shadow: 10px 10px rgba(0,0,0,0.2);
-
+  box-shadow: 10px 10px #E53935;
   -webkit-transition: margin .2s;
   transition-timing-function: ease;
+}
+
+.modal-body .btn-infos {
+  box-shadow: 10px 10px #ddd;
 }
 
 .btn-infos:hover,
@@ -394,6 +397,12 @@ a .panel-body:focus .titre,
   margin-top: 50px;
 }
 
+.red a,
+.red a:hover,
+.red a:focus {
+  color: #fafafa;
+}
+
 .row-actu {
   margin-bottom: 1em;
 }
@@ -425,6 +434,20 @@ a .panel-body:focus .titre,
 .btn-don {
   margin-bottom: 20px;
   margin-top: 10px;
+  border-radius: 0;
+  padding: 18px 20px;
+  background-color: #EF5350;
+  color: #fff;
+}
+
+.btn-don:hover,
+.btn-don:focus {
+  background-color : #E53935;
+}
+
+a.btn-don:hover,
+a.btn-don:focus {
+  color: #fafafa;
 }
 
 .fa-mobile {
