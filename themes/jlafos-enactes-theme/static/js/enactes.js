@@ -3,12 +3,13 @@ $(window).load(function() {
 });
 
 // header opacity fades on scroll
-if ($('.a-propos') != undefined) {
+if ($('.a-propos').length > 0) {
     var header = $('.a-propos');
     var range = 200;
 }
+
 $(window).on('scroll', function () {
-    if ($('.a-propos') != undefined) {
+    if ($('.a-propos').length > 0) {
         var scrollTop = $(this).scrollTop();
         var offset = header.offset().top;
         var height = header.outerHeight();
@@ -33,3 +34,7 @@ $('a.page-scroll').bind('click', function(event) {
     }, 1250, 'easeInOutQuart');
     event.preventDefault();
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

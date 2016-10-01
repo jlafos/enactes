@@ -213,6 +213,10 @@ button a, .btn {
   background-color: transparent;
 }
 
+.logo {
+  margin: 50px 0 50px 0;
+}
+
 /* Page single auteurs */
 @media (min-width: 768px) {
   .date {
@@ -438,11 +442,15 @@ a .panel-body:focus .titre,
   padding: 18px 20px;
   background-color: #EF5350;
   color: #fff;
+  font-family: 'Amatic SC';
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .btn-don:hover,
 .btn-don:focus {
-  background-color : #E53935;
+  background-color: #E53935;
+  color: #fafafa;
 }
 
 a.btn-don:hover,
