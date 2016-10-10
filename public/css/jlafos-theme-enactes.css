@@ -46,6 +46,21 @@ h2,
   margin-left: 10px;
 }
 
+h1,
+.h1,
+h2,
+.h2,
+h3 {
+  margin-top: 30px;
+}
+
+h4,
+.h4,
+h5,
+.h5 {
+  margin-top: 20px;
+}
+
 /* sous-lignage particulier */
 .titre {
   font-family: 'Roboto Slab', serif;
@@ -460,6 +475,11 @@ a.btn-don:focus {
 
 .fa-mobile {
   vertical-align: top;
+}
+
+.lead b,
+.lead strong {
+  font-weight: 600;
 }
 
 /* wow.js visibility */
