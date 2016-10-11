@@ -21,9 +21,12 @@ Collaborateur artistique, responsable web<br>
 __Mathilde Gamon__<br>
 Administratrice de production<br>
 
+__Augustin Rolland__<br>
+Illustrations
+
 
 ### Nous contacter
 
-Administration, production : en.actes.compagnie _at_ gmail _point_ com
+Administration, production : en.actes.ecritures _at_ gmail _point_ com
 
 Plateforme web enActes.fr : web _at_ enactes _point_ fr

@@ -7,6 +7,7 @@ datefr = "Octobre 2016"
 biographie = "La biographie de JPS..."
 editeur = "L'éditeur de JPS"
 contact = "blabla@test.io"
+img = "jpsimeon.jpg"
 
 [[links]]
     label = "Lien 1"
