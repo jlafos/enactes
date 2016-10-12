@@ -1,7 +1,7 @@
 +++
 title = "Merci !"
 description = ""
-type = "merci"
+type = "inscription"
 +++
 
 En Actes vous remercie de votre don !
