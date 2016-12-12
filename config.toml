@@ -1,6 +1,6 @@
 theme = "jlafos-enactes-theme"
 baseurl = "http://enactes.fr/"
 languageCode = "fr-fr"
-title = "enActes.fr"
+title = "EN ACTE(S)"
 relativeURLs = true
 canonifyURLs = true
