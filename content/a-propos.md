@@ -37,7 +37,7 @@ Cette plateforme est proche d’un système de coopérative car les abonnements 
 En 2017, nous changeons de formule.<br>
 Le [__festival EN ACTE(S)__](/festival/) prendra ses quartiers pendant deux semaines aux __Théâtres de l’Elysée et des Clochards Célestes__ à Lyon __du 7 au 19 mars 2017__. Dix pièces y seront créées pour l’occasion.
 
-Ce festival cherche à valoriser le travail des auteurs en leur permettant d’être joués immédiatement, en étant rémunérés et en ayant un terrain de diffusion le plus large possible. (plus d’informations sur notre onglet Festival)
+Ce festival cherche à valoriser le travail des auteurs en leur permettant d’être joués immédiatement, en étant rémunérés et en ayant un terrain de diffusion le plus large possible.
 
 
 ### Votre soutien

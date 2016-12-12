@@ -1,7 +1,7 @@
 +++
 title = "Aurore Jacob"
 texte = "Ici ou là-bas"
-description = "Description Aurore Jacob Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris incertus agitare quaedam conducentia saluti suae per itinera conaretur, remoti sunt omnes de industria milites agentes in civitatibus perviis."
+description = "Nous avons le plaisir de partager avec vous l'écriture d'Aurore Jacob qui ne cesse de jouer avec les formes et les genres littéraires. Son travail mène aussi une recherche sur l'influence de l'audio-visuel, en s'appuyant sur la poésie d'une parole, où la langue est une projection d'images et de sensations qui questionne la perception du spectateur."
 date = "2016-11-13"
 datefr = "Novembre 2016"
 img = "aurore-jacob.jpg"
