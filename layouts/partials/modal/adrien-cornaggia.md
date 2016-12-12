@@ -22,6 +22,11 @@ Par ailleurs, il fraye avec d’autres littératures et s’attèle notamment à
 ### Contact
 adrien.cornaggia@gmail.com
 
+### Bibliographie
+
+- _Baïnes_, éditions Théâtrales, 2015
+- _Korida_, éditions En Acte(s), 2014
+
 ### Extraits
 
 - _Jeanne Quatre Fois_, pièce tout public en cours d’écriture, 2016
