@@ -1,16 +1,13 @@
 +++
 title = "Adrien Cornaggia"
 texte = "La douceur du bain"
-description = "Introduction présentation en actes"
+description = "Adrien Cornaggia est un auteur que nous suivons depuis le début. Son écriture, faite d’oralité, s’amuse des genres littéraires. Sa langue imagine et crée de nombreux paysages qu’il est bon d’entendre et de lire à haute voix. Nous vous invitons donc à découvrir ce texte et à vous plonger dans les extraits sélectionnés de ses autres travaux (section \"Plus d'infos sur l'auteur\")."
 date = "2016-12-13"
 datefr = "Décembre 2016"
 img = "adrien-cornaggia.jpg"
 modal = "modal/adrien-cornaggia.md"
 
 +++
-
-<br><br><br>
-NDLA : ce qui suit est le début d’un roman en cours d’écriture, dont on pourra lire d’autres extraits sur le site [adriencornaggia.fr](http://www.adriencornaggia.fr) (dans _Les Épisodiques_).
 
 <br><br><br>
 _Je ne crois pas qu’on puisse disparaître tout à fait à soi. Il reste toujours le reflet dans l’eau des fûts ou la pestilence singulière de son propre corps après un effort ou bien après l’effroi. On ne peut que se retrouver, quoiqu’on fasse, tant qu’on n’est pas mort. Mais aux autres, je crois qu’on peut parfaitement finir par ne plus manquer et devenir, pour ainsi dire, une silhouette du passé. Alors, à ce moment-là, quand le chagrin n’étouffe plus leur sommeil, quand les petits ruisseaux urbains coulent sans plus porter de leurs larmes, quand la boucane des foyers ne colporte plus aucune sorte de murmure affligé, on n’est plus qu’à soi, et l’évaporation peut vraiment commencer._
@@ -104,3 +101,6 @@ La vieille dame, qui fut un jour mère, enlaça la jeune femme et lui dit une ch
 « Quels cahiers, madame Ito ? interrogea le reporter étranger dont le bout du nez commençait à frétiller. »\
 La logeuse se pinça les lèvres, respira le parfum de l’été et captura maternellement la main du reporter étranger.\
 « Venez, dit-elle, il va pleuvoir. »
+
+<br><br><br>
+NDLA : ce texte est le début d’un roman en cours d’écriture, dont on pourra lire d’autres extraits sur le site [adriencornaggia.fr](http://www.adriencornaggia.fr) (dans _Les Épisodiques_).
