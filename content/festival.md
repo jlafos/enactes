@@ -4,7 +4,11 @@ description = "Plus d'infos sur le festival En Actes..."
 type = "single-no-nav"
 +++
 
-Du __7 au 19 Mars 2017__ <br>aux __Théâtres de l’Elysée et des Clochards Célestes__ <br>à __Lyon__
+Du __7 au 18 Mars 2017__ <br>aux __Théâtres de l’Elysée et des Clochards Célestes__ <br>à __Lyon__
+
+### **[Cliquer ici](/dl/enactes-programme-2017.pdf)** pour télécharger le programme du Festival EN ACTE(S) (édition 2017)
+
+<img src="/dl/enactes-affiche-2017.jpg" alt="Festival EN ACTE(S) 2017" class="img-responsive">
 
 ---
 
