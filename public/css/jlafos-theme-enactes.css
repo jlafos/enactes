@@ -496,6 +496,10 @@ p a {
   background-color: rgba(255, 255, 255, .8);
 }
 
+#texte blockquote {
+  text-align: right;
+}
+
 
 /* wow.js visibility */
 .wow {
