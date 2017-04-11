@@ -1,7 +1,7 @@
 +++
 title = "Sophie Berger"
 texte = "La route chante quand je m’en vais, disait Lhasa"
-description = "Description Sophie Berger"
+description = "Baroudeuse des terres émergées comme de celles que les océans dissimulent, Sophie Berger ne promène pas seulement son épuisette parmi les sons,  elle les galvanise, les coagule, les avive et les vêt d’histoires sans que mot ne vienne. Partez à la rencontre <i>sensationnelle</i> d’une écriture de l’impalpable."
 date = "2017-03-13"
 datefr = "Mars 2017"
 img = "sophie-berger.jpg"
